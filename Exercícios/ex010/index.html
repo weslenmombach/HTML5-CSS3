@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trabalhando com Links </title>
+    <style>
+        body{background-color: cornflowerblue;}
+    </style>
+    <link rel="shortcut icon" href="logo-html-200.png" type="image/x-icon">
+</head>
+<body>
+    <h1> Usando links externos </h1>
+    <p> Pode-se acessar meu <a href="https://www.youtube.com/channel/UCOQI_kM8-kceTkjgjPJbpZQ">canal do YouTube</a> utilizando do link externo disponível na frase.</p>
+    <p> Também pode acessar o <a href="https://www.figma.com/login" target="_blank" rel="external">Conteúdo HTML</a>. </p>
+    <h2> RESUMO</h2>
+    <p> Para ser direcionado saindo da página principal utilizamos apenas a tag &lt;a&gt;;
+        <br> Já para ser direcionado a outra aba, adicionamos a atribuição <MARK style="background-color:rgb(216, 133, 133); color: beige;"><i>target</i> ="_blank" e rel="extrernal"</MARK>.
+    </p>
+    
+    <h1> USANDO LINK'S INTERNOS </h1>
+    <p> Neste caso, se quiseres acessar a página 02 do site, <a href="pag002.html" ref="next">clique aqui</a>.</p>
+    <p> Para que eu consiga vincular e fazer com que a página apareça quando clico no link,
+    <br> a página 002 neste caso, deve estar salva na mesma pasta do meu index
+    <br> OBS: Não preciso colocar a URL inteira, apenas vinular com CTRL + Space.
+    </p>
+    <p> Esta página é um oferecimento de <a href="https://www.google.com/" target="_blank" rel="nofollow">outra página</a>. </p>
+    <p> Você também pode acessar a terceira <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a> </p>
+    <p> Se alguma das minhas páginas estiver organizadamente em uma pasta, eu utilizo de comando pra encontrar o caminho. </p>
+    <p> Podemos utilizar também do que seria a atribuição (target="_self") para que o mecanismo entenda que a página a ser redirecionada, continuaria na mesma guia do site index. </p>
+    
+    <h1> Links para Download </h1>
+    <ol>
+        <ul>
+            <li><a href="livro/Weslen Severo Mombach.pdf" download="Weslen Severo Mombach.pdf" type="application/pdf"> Baixar o PDF</a></li>
+            <li><a href="livro/Weslen Severo Mombach.zip" download="Weslen Severo Mombach.zip" type="application/zip"> Baixar arquivo compactado em ZIP </a></li>
+        </ul>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: #FFEDD5;
+}
+header{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 0;
+}
+span{
+    color: saddlebrown;
+}
+section{
+    max-width: 450px;
+    margin: 0 auto;
+}
+section h2{ text-align: center;
+background-color: sandybrown;
+padding: 8px 16px;
+margin-bottom: 24px;}
+
+ul li{
+    display: flex;
+}
+.details h3{
+    margin-bottom: 8px;
+}

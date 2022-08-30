@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IMAGENS </title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        h1{color: green;}
+        body{background-color: white;}
+    </style>
+</head>
+<body>
+    <h1> DINÂNICA </h1>
+    <p> Tente abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Felxível">
+    </picture>
+    <hr>
+    <h1> REPRODUZINDO ÁUDIO </h1>
+    <p> Vamos aprender a reproduzir áudios em HTML5. </p>
+    <p> Escute abaixo a Canção da Infantaria. </p>
+    <audio src="midia/infantaria.mp3" preload="metadata" controls>
+        <source src="midia/infantaria.mp3" type="audio/mp3">
+        <source src="midia/infantaria.ogg" type="audio/ogg">
+        <source src="midia/infantaria.wav" type="audio/wav">
+        <p> Infelizmente não foi possível reproduzir no seu navegador.</p>
+        <a href="midia/infantaria.mp3"> CLique aqui para baixar o arquivo. </a>
+    </audio>
+    <p> OBS: No CSS quando temos algo relativo é sem a "/" e absoluto é com a "/"</p>
+<hr>
+<h1> Vídeos hospedados e inseridos localmente </h1>
+<p> Este vídeo está hospedado no meu servidor </p>
+<video src="midia/cafe.mp4" width="500" height="315" poster="imagens/cafe.jpg" controls loop></video>
+<p> Neste caso, para ficar mais compatível com o site, utilizamos a atribuição <i>width</i></p>
+<p> Também temos o fato de que essa maneira, acompanhado de src pode ser mais caro para o cliente
+    junto a questão de consumo de banda. Sendo assim, faremos desta outra maneira abaixo.
+</p>
+<h1 style="color:blue"> Adicionando vídeos do YouTube </h1>
+<p> Sendo assim, adicionamos vídeos no serviço de hospedagem de vídeos. </p>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p> Para adicionarmos vídeo dessa maneira, utilizamos um vídeo de referência em algum reprodutor
+    <br> (YouTube, Vimeo e outros) e na opção compartilhar seguido de incorporar, conseguimos o cód. HTML para colar, podendo mudar algumas coisas.
+</p>
+<h1 style="color:green;"> Agora temos o vídeo do VIMEO </h1>
+<iframe src="https://player.vimeo.com/video/76979871?h=8272103f6e" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
