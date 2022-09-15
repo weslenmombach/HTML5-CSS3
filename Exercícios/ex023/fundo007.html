@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+
+        #container{
+            position: relative;
+            height: 96vh;
+            width: 98vw;
+            background-color: red;
+            padding: 10px;
+
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 300px;
+            max-width: 600px;
+            background-color: blue;
+            border: 10px solid black;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+        <section id="container">
+            <article id="conteudo">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum blanditiis accusamus excepturi ut minima harum perspiciatis nihil iste fugit consectetur dolorum molestiae laboriosam sit corporis in, consequuntur ratione atque. Modi.
+            </article>
+        </section>
+</body>
+</html>
