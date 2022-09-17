@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-**{
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
 
 header{
     background-color: black;
@@ -13,6 +8,7 @@ header{
     padding: 10px;
     height: 150px;
     width: auto;
+    
 }
 
 #img01{
