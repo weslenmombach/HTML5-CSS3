@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+**{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    width: auto;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.fundo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    max-width: 200px;
+    padding: 10px;
+    border: 2px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
