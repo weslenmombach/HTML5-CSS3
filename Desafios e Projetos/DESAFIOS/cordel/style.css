@@ -1,14 +1,51 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+div{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+}
 
 header{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
-    height: 150px;
+    height: 160px;
     width: auto;
-    
+    font-variant: small-caps;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header > h1{
+    padding-top: 50px;
+}
+
+header > p{
+    padding-bottom: 50px;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+p{
+    padding-left: 30px;
 }
 
 #img01{
@@ -24,12 +61,35 @@ header{
 .fundo{
     color: white;
     background-color: rgba(0, 0, 0, 0.384);
-    max-width: 200px;
-    padding: 10px;
+    padding-left: 30px;
+    border: 2px;
+
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.fundo02{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding-left: 30px;
     border: 2px;
 }
 
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+footer > p > a{
+    font-weight: bolder;
 }
