@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: grey;
+    padding: 10px;
+}
+
+ table{
+    border-collapse: collapse;
+    width: 400px;
+    box-shadow: 2px 2px 6px black;
+ }
+
+th{
+    border: 1px solid black;
+    height: 50px;
+}
+
+ td{
+    border: 1px solid black; 
+    padding: 20px;
+ }
+
+.roda{
+    background-color: lightblue ;
+    color: black;
+ }
+ 
+ .num{
+    text-align: right;
+ }
+
+ 
