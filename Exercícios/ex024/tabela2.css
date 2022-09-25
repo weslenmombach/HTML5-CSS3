@@ -16,6 +16,10 @@ body{
     box-shadow: 2px 2px 6px black;
  }
 
+thead{
+    background-color: aquamarine;
+}
+
 th{
     border: 1px solid black;
     height: 50px;
@@ -27,12 +31,17 @@ th{
  }
 
 .roda{
-    background-color: lightblue ;
     color: black;
+    background-color: aquamarine;
  }
  
  .num{
     text-align: right;
  }
+
+ tbody > tr:nth-child(2n){
+    background-color: red;
+ }
+ 
 
  
