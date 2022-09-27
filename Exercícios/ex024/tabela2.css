@@ -14,9 +14,16 @@ body{
     border-collapse: collapse;
     width: 400px;
     box-shadow: 2px 2px 6px black;
+    position: relative;
  }
 
 thead{
+    background-color: aquamarine;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
     background-color: aquamarine;
 }
 
