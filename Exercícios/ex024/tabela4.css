@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+caption{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+table{
+border-collapse: collapse;
+margin: auto;
+}
+
+thead{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.3em;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.3em;
+
+}
+
+tr{
+    border: 1px solid black;
+    text-align: center;
+    padding: 400px;
+    font-size: 1.3em;
+
+}
