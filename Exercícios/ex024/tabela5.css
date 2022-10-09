@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    margin: 40px;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr > td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nome{
+    background-color: lightgreen;
+}
+
+.sexo{
+    background-color: grey;
+}
+
+.idade{
+    background-color: lightblue;
+}
+
+.prof{
+    background-color: lightslategray;
+}
