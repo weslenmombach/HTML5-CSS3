@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFrame</title>
+    <link rel="stylesheet" href="iframe.css">
  </head>
  <body>
     <h1>Testando uso de iFrame</h1>
     <p>Acessando o site do 
         
-    <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe>
+    <iframe src="https://www.cursoemvideo.com/" frameborder="0">
+      <!--Aqui posso colocar um link ou mensagem para navegador que não suportar iframe-->
+      Seu navegador não é compatível com este conteúdo, <a href="https://www.cursoemvideo.com/">clique aqui</a> para acessar.
+    </iframe>
     
     para aprender a programar</p>
  </body>
