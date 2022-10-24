@@ -10,42 +10,51 @@
     <h1>Testing Form's</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
 
-        <p>
-            <label for="iname">Name</label>
-            <input type="text" name="name" id="iname" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
-        </p>
+        <fieldset>
+            <legend>Testando quadros para forms</legend>
+            <p>
+                <label for="iname">Name</label>
+                <input type="text" name="name" id="iname" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" min="0" max="10"
+                placeholder="Test 1" step="0.5" required value="5">
+            </p>
+            <p>
+                <label for="imedia2">Média</label>
+                <input type="number" name="media2" id="imedia2" min="0" max="10"
+                placeholder="Test 2" step="0.5" required value="5">
+            </p>
+        </fieldset>
 
-        <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" min="0" max="10"
-            placeholder="Test 1" step="0.5" required value="5">
-        </p>
-
-        <p>
-            <label for="imedia2">Média</label>
-            <input type="number" name="media2" id="imedia2" min="0" max="10"
-            placeholder="Test 2" step="0.5" required value="5">
-        </p>
-
-        <p>
-            <label for="imes"> Período Letivo</label>
-            <input type="month" name="mes" id="imes" required value="2022-10">
-        </p>
-
-        <p>
-            <label for="idate">Data da prova</label>
-            <input type="date" name="date" id="idate" required>
-        </p>
-
-        <p>
-            <label for="itime">Horário da prova</label>
-            <input type="time" name="time" id="itime" required>
-        </p>
-
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Outro bloco - Fieldset  </legend>
+            <p>
+                <label for="imes"> Período Letivo</label>
+                <input type="month" name="mes" id="imes" required value="2022-10">
+            </p>
+            <p>
+                <label for="idate">Data da prova</label>
+                <input type="date" name="date" id="idate" required>
+            </p>
+            <p>
+                <label for="itime">Horário da prova</label>
+                <input type="time" name="time" id="itime" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required placeholder="Seu e-mail aqui">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx)xxxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
 
     </form>
 
