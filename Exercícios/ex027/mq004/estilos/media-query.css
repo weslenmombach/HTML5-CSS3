@@ -2,6 +2,129 @@
 
 /*Todas as demais mídias*/
 
+/*Typical Device Breakpoints
+
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+
 @media print {
+    body{
+        background-image: url(../imagens/icon-print.png);
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    body::after{
+        content: 'Esta impressão foi designada para o exercício do curso';
+        text-decoration: overline;
+    }
+
+    #phone{
+        display: none;
+    }
     
+    #print{
+        display: block;
+    }
+    
+    #tablet{
+        display: none;
+    }
+    
+    #pc{
+        display: none;
+    }
+    
+    #tv{
+        display: none;
+    }
+    
+    h1{
+        color: white;
+        text-shadow: 1px 1px 2px blue;
+    }
+}
+
+/* Como eu já crieu meu mobile first, não preciso efetivar novamente as config's aqui, posso seguir para outras telas*/
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: block;
+    }
+    
+    #pc{
+        display: none;
+    }
+    
+    #tv{
+        display: none;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 992px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: none;
+    }
+    
+    #pc{
+        display: block;
+    }
+    
+    #tv{
+        display: none;
+    }
+}
+
+/*GRANDES TELAS*/
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: none;
+    }
+    
+    #pc{
+        display: none;
+    }
+    
+    #tv{
+        display: block;
+    }
 }
